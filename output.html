@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let a = [10, 20, 30];
+    console.log(a.length);
+
+    //shift method
+    let sh = [10, 20, 30, 40];
+    console.log(sh.shift()); //10 remove 1st element of the array
+    console.log(sh); //20,30,40
+
+    let sha = [];
+    console.log(sha.shift());
+//unshift method
+
+let x = [20,30,40,50, 80];
+console.log("unshiftMethod",x.unshift(100));
+console.log("=====>",x);// add the element of 1st index of array
+
+//pop method
+
+let y = [30, 40, 50, 60, 90];
+console.log(y.pop()); //remove last element of array
+console.log(y);
+
+//push method
+let p = [22, 33, 44, 55, 66,77];
+console.log(p.push(11)); // add the element in last index of array
+console.log(p)
+
+//indexOf method 
+let b = [4, 5,7,8,9,11];
+console.log("index of element===>",b.indexOf(9)); // indexof method return of first occurance of the element 
+console.log("index of element===>",b.indexOf(11)); // indexof method return of first occurance of the element 
+console.log("index of element===>",b.indexOf(55)); // indexof method return of first occurance of the element 
+                                                    // if the value is not found return -1
+//lastIndexof
+
+let num = [3,4,5,6,7,4, 0,8,9,0];
+console.log(num.lastIndexOf(0))
+console.log(num.lastIndexOf(4)) //method returns the index (position) of the last occurrence of a specified value in a string.
+
+//include
+let n = [3,4,5,6,7,4, 0,8,9,0];
+console.log("====>",n.includes())
+
+
+
+
+</script>
+</html>
